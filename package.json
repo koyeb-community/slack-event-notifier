@@ -1,0 +1,11 @@
+{
+  "name": "slack-event-notifier",
+  "version": "1.0.0",
+  "main": "./slack-event-notifier.js",
+  "homepage": "https://www.koyeb.com",
+  "repository": "https://github.com/koyeb-community/function-slack-event-notifier",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/webhook": "^5.0.3"
+  }
+}

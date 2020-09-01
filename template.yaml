@@ -1,0 +1,15 @@
+parameters:
+    - name: STORE
+      description: "The store to watch to trigger the function."
+      type: STORE_REF
+      required: true
+    - name: SLACK_WEBHOOK_URL
+      description: "The Slack webhook URL."
+      required: true
+      type: "SECRET_REF"
+template: |
+    env:
+        SLACK_WEBHOOK_URL:
+            value_from_secret: {{ .SLACK_WEBHOOK_URL }}
+    events:
+    - store: {{ .STORE }}
