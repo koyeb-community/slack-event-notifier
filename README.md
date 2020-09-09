@@ -1,6 +1,6 @@
 ---
 display_name: Slack event notifier
-icon: "https://www.koyeb.com/static/images/icons/services/slack.svg"
+icon: "https://assets.koyeb.com/icons/slack.svg"
 short_description: Receive store event notifications on Slack.
 status: ACTIVE
 version: 1.0.0
