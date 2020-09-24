@@ -1,4 +1,4 @@
 functions:
-  - name: function-slack-event-notifier
+  - name: slack-event-notifier
     runtime: nodejs14
     handler: slack-event-notifier.handler
