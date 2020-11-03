@@ -2,7 +2,7 @@
 display_name: Slack event notifier
 icon: "https://assets.koyeb.com/icons/slack.svg"
 status: ACTIVE
-version: 1.0.0
+short_description: Receive Slack notifications each time a Store event is triggered.
 ---
 
 ## Summary
